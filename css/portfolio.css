@@ -1,11 +1,13 @@
 * {
-    text-decoration: 0;
-    list-style-type: none;
+  text-decoration: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto";
 }
 
 .nav-studio {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -14,8 +16,6 @@
 }
 
 .nav-studio:hover {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -24,8 +24,6 @@
 }
 
 .nav-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -34,8 +32,6 @@
 }
 
 .nav-portfolio:hover {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -44,8 +40,6 @@
 }
 
 .nav-contacts {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -54,8 +48,6 @@
 }
 
 .nav-contacts:hover {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -64,8 +56,6 @@
 }
 
 .nav-tel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -74,8 +64,6 @@
 }
 
 .nav-tel:hover {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -84,8 +72,6 @@
 }
 
 .nav-mail {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -94,8 +80,6 @@
 }
 
 .nav-mail:hover {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -105,7 +89,6 @@
 
 .nav-webstudio {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -118,8 +101,7 @@
 }
 
 .btn {
-  font-family: "Roboto";
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -146,8 +128,6 @@
 }
 
 .adress {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -156,8 +136,6 @@
 }
 
 .footer-contacts {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -166,8 +144,6 @@
 }
 
 .title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -176,14 +152,9 @@
 }
 
 .descr {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
