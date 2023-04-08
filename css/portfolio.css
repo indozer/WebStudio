@@ -7,18 +7,19 @@ body {
   font-family: "Roboto";
 }
 
-.nav-studio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14%;
-  letter-spacing: 0.02em;
-  color: #212121;
+.header-logo, .logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .nav-studio:hover {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -26,7 +27,7 @@ body {
 .nav-portfolio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -34,7 +35,7 @@ body {
 .nav-portfolio:hover {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -42,7 +43,7 @@ body {
 .nav-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -50,7 +51,7 @@ body {
 .nav-contacts:hover {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -58,7 +59,7 @@ body {
 .nav-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -66,7 +67,7 @@ body {
 .nav-tel:hover {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -74,7 +75,7 @@ body {
 .nav-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -82,7 +83,7 @@ body {
 .nav-mail:hover {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -91,7 +92,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19%;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -103,7 +104,7 @@ body {
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62%;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
@@ -129,7 +130,7 @@ body {
 .adress {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -137,7 +138,7 @@ body {
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -145,7 +146,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -153,7 +154,7 @@ body {
 .descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87%;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
