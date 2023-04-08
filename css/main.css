@@ -4,95 +4,85 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .nav-studio {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
-.nav-studio:hover {
-  font-family: "Roboto";
+.nav-studio:hover { 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .nav-portfolio {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
 .nav-portfolio:hover {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .nav-contacts {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
 .nav-contacts:hover {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .nav-tel {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
 .nav-tel:hover {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .nav-mail {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
 .nav-mail:hover {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14%;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -101,7 +91,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19%;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -110,16 +100,15 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19%;
   letter-spacing: 0.03em;
   color: #000000;
 }
 
 .main-title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36%;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -136,7 +125,6 @@ body {
 }*/
 
 .title-btn {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87%;
@@ -153,7 +141,6 @@ body {
 }
 
 .title-description {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71%;
@@ -162,7 +149,6 @@ body {
 }
 
 .title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14%;
@@ -172,7 +158,6 @@ body {
 }
 
 .company-involded {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16%;
@@ -182,7 +167,6 @@ body {
 }
 
 .team-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16%;
@@ -192,7 +176,6 @@ body {
 }
 
 .team-name {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18%;
@@ -202,7 +185,6 @@ body {
 }
 
 .team-descr {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18%;
@@ -219,8 +201,7 @@ body {
   background: #2f303a;
 }
 
-.adress {
-  font-family: "Roboto";
+.footer-adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71%;
@@ -229,7 +210,6 @@ body {
 }
 
 .footer-contacts {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71%;
