@@ -7,6 +7,8 @@ body {
   font-family: 'Roboto';
 }
 
+/* навігація */
+
 .nav-studio {
   font-weight: 500;
   font-size: 14px;
@@ -114,6 +116,8 @@ body {
   color: #000000;
 }
 
+/* Секція герой */
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -166,6 +170,8 @@ body {
   color: #212121;
 }
 
+/* секція компанії */
+
 .company-involded {
   font-weight: 700;
   font-size: 36px;
@@ -205,6 +211,8 @@ body {
 .webstudio-wh {
   color: #ffffff;
 }
+
+/* футер */
 
 .footer {
   background: #2f303a;
