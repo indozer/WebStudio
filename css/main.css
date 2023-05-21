@@ -4,16 +4,26 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: solid red;
+  /* outline: solid rgb(223, 11, 82); */
   margin-left: auto;
   margin-right: auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 /* навігація */
@@ -26,7 +36,7 @@ body {
   color: #212121;
 }
 
-.nav-studio:hover { 
+.nav-studio:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -107,6 +117,13 @@ body {
   color: #2196f3;
 }
 
+.header-list {
+  display: flex;
+  margin-left: 93px;
+  gap: 50;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -137,29 +154,27 @@ body {
   color: #ffffff;
 }
 
-/* .hero-section { 
-  position: absolute;
-  width: 1600px;
-  height: 1600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
-}*/
-
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 40px;
+}
+
+.advantage-list {
+  display: flex;
+  margin-top: 95px;
+  margin-bottom: 94px;
+  padding-right: 30px;
+  gap: 30px;
 }
 
 .advantage-description {
@@ -181,6 +196,19 @@ body {
 
 /* секція компанії */
 
+.company-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .company-involded {
   font-weight: 700;
   font-size: 36px;
@@ -188,6 +216,18 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.company-item {
+  padding-top: 50px;
+}
+
+.team-list {
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 93px;
 }
 
 .team-title {
@@ -206,6 +246,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 30px;
 }
 
 .team-descr {
@@ -215,6 +256,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .webstudio-wh {
@@ -241,4 +284,31 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+  padding-top: 93px;
+}
+
+.hstudio {
+  margin-left: 93px;
+}
+
+.hport,
+.hport,
+.hcont {
+  margin-left: 50px;
+}
+
+.hnum {
+  margin-left: 344px;
+}
+
+.hmail {
+  margin-left: 50px;
+}
+
+.img {
+  width: 270px;
+  height: 260px;
 }
