@@ -144,6 +144,7 @@ body {
 
 /* Секція герой! */
 
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -152,6 +153,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 200px;
+}
+
+.hero-section {
+  background: #2F303A;
+  height: 600px;
 }
 
 .hero-btn {
@@ -167,6 +174,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 40px;
+  width: 216px;
+  height: 50px;
+  margin-left: 452px;
 }
 
 .advantage-list {
@@ -268,6 +278,12 @@ body {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.footer-list {
+  margin-top: 20px;
 }
 
 .footer-adress {
@@ -286,8 +302,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-logo {
-  padding-top: 93px;
+.footer-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item {
+  padding-bottom: 9px;
 }
 
 .hstudio {
