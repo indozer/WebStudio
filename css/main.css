@@ -119,9 +119,9 @@ body {
 
 .header-list {
   display: flex;
-  margin-left: 93px;
   gap: 50;
   align-items: center;
+  margin-right: 93px;
 }
 
 .logo {
@@ -153,15 +153,16 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
 }
 
 .hero-section {
   background: #2F303A;
-  height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-btn {
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -176,13 +177,15 @@ body {
   margin-top: 40px;
   width: 216px;
   height: 50px;
-  margin-left: 452px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 .advantage-list {
   display: flex;
-  margin-top: 95px;
-  margin-bottom: 94px;
+  padding-top: 95px;
+  padding-bottom: 94px;
   padding-right: 30px;
   gap: 30px;
 }
@@ -202,6 +205,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  padding-bottom: 10px;
 }
 
 /* секція компанії */
