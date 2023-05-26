@@ -31,7 +31,7 @@ body {
 .nav-studio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.14; 
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -119,9 +119,13 @@ body {
 
 .header-list {
   display: flex;
-  gap: 50;
   align-items: center;
-  margin-right: 93px;
+  margin-right: 344px;
+}
+
+.header-list2 {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -331,10 +335,6 @@ body {
 .hnum {
   margin-left: 50px;
   white-space: nowrap;
-}
-
-.hmail {
-  margin-left: 344px;
 }
 
 .img {
