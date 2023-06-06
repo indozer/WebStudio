@@ -5,6 +5,7 @@
 
 body {
   font-family: "Roboto";
+  background-color: #ECECEC;
 }
 
 .container {
@@ -19,23 +20,25 @@ body {
 
 /* навігація */
 
-.header-logo,
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: #FFFFFF;
 }
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+/* РЅР°РІС–РіР°С†С–СЏ */
 
 .nav-studio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.14; 
   letter-spacing: 0.02em;
-  color: #000000;
-
+  color: #212121;
 }
 
 .nav-studio:hover {
@@ -110,7 +113,27 @@ body {
   color: #2196f3;
 }
 
-.nav-webstudio {
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-right: 344px;
+}
+
+.header-list2 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -120,10 +143,37 @@ body {
 }
 
 .nav-webstudiobl {
-  color: black;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+
+.nav-webstudiobl {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 /* кнопочки */
+
+.hero-section {
+  display: flex;
+  margin-top: 93px;
+  margin-bottom: 34px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
 
 .hero-btn {
   font-weight: 500;
@@ -132,8 +182,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
-  border-radius: 6px;
+  border-radius: 4px;
   border: none;
+  cursor: pointer;
+  height: 38px;
+  width: auto;
 }
 
 .hero-btn:hover {
@@ -148,13 +201,32 @@ body {
   color: #ffffff;
 }
 
+.product-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+
 /* футер */
 
 .footer {
   background: #2f303a;
+  margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
-.adress {
+.footer-list {
+  margin-top: 20px;
+}
+
+.footer-adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -170,12 +242,35 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item {
+  padding-bottom: 9px;
+}
+
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+
 .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
 .descr {
@@ -184,4 +279,46 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
+
+.hstudio {
+  margin-left: 93px;
+}
+
+.hport,
+.hport,
+.hcont {
+  margin-left: 50px;
+}
+
+.hnum {
+  margin-left: 50px;
+  white-space: nowrap;
+}
+
+/* .all {
+  width: 73px;
+  height: 38px;
+}
+
+.website {
+  width: 125px;
+  height: 38px;
+}
+
+.apps {
+  width: 112px;
+  height: 38px;
+}
+
+.design {
+  width: 103px;
+  height: 38px;
+}
+
+.marketing {
+  width: 130px;
+  height: 38px;
+} */
