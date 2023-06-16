@@ -211,6 +211,7 @@ body {
 .product-item {
   box-sizing: border-box;
   background: #FFFFFF;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 /* футер */
