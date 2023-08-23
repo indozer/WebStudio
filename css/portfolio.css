@@ -5,17 +5,16 @@
 
 body {
   font-family: "Roboto";
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   /* outline: solid red; */
-
 }
 
 /* навігація */
@@ -23,7 +22,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .header-navigation {
@@ -36,7 +35,7 @@ body {
 .nav-studio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14; 
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -151,7 +150,6 @@ body {
   color: #000000;
 }
 
-
 .nav-webstudiobl {
   font-family: "Raleway";
   font-weight: 700;
@@ -197,6 +195,14 @@ body {
   color: aliceblue;
 }
 
+.hero-btn:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  color: aliceblue;
+}
+
 .webstudio-wh {
   color: #ffffff;
 }
@@ -210,8 +216,16 @@ body {
 
 .product-item {
   box-sizing: border-box;
-  background: #FFFFFF;
+  background: #ffffff;
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.product-item:hover {
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 /* футер */
@@ -262,7 +276,6 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 
 .title {
   font-weight: 700;
