@@ -36,7 +36,7 @@ body {
   color: #212121;
 }
 
-.nav-studio:hover {
+.nav-studio:hover, .nav-studio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,7 +52,7 @@ body {
   color: #212121;
 }
 
-.nav-portfolio:hover {
+.nav-portfolio:hover, .nav-portfolio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,7 +68,7 @@ body {
   color: #212121;
 }
 
-.nav-contacts:hover {
+.nav-contacts:hover, .nav-contacts:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -84,7 +84,7 @@ body {
   color: #757575;
 }
 
-.nav-tel:hover {
+.nav-tel:hover, .nav-tel:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +100,7 @@ body {
   color: #757575;
 }
 
-.nav-mail:hover {
+.nav-mail:hover, .nav-mail:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -168,7 +168,7 @@ body {
   padding-bottom: 200px;
   padding-top: 200px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 
@@ -229,8 +229,14 @@ body {
   margin-bottom: 94px;
 }
 
+.team {
+  background: #F5F4FA;
+  padding-bottom: 93px;
+  padding-top: 94px;
+}
+
 .team-item {
-  background: #ffffff;
+  background: #FFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -254,13 +260,12 @@ body {
   margin-top: 50px;
   justify-content: flex-start;
   gap: 30px;
-  margin-bottom: 93px;
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16%;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -269,12 +274,12 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18%;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 30px;
 }
+
 
 .team-descr {
   font-weight: 400;
@@ -283,8 +288,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .webstudio-wh {
@@ -309,6 +314,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  font-style: normal;
 }
 
 .footer-contacts {
@@ -346,51 +352,34 @@ body {
   white-space: nowrap;
 }
 
-.img {
+.team-img {
   width: 270px;
   height: 260px;
+  margin-bottom: 30px;
 }
 
-.pp1::before {
+.advantage-icon::before {
   display: block;
   content: "";
   width: 100%;
   height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.advantage-icon:first-child::before {
   background-image: url(../img/antenna.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
 }
 
-.pp2::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 120px;
+.advantage-icon:nth-child(2)::before {
   background-image: url(../img/clock.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
 }
 
-.pp3::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 120px;
+.advantage-icon:nth-child(3)::before {
   background-image: url(../img/diagram.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
 }
 
-.pp4::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 120px;
+.advantage-icon:nth-child(4)::before {
   background-image: url(../img/astronaut.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
 }

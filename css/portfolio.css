@@ -5,7 +5,7 @@
 
 body {
   font-family: "Roboto";
-  background-color: #ececec;
+  background: #FFF;
 }
 
 .container {
@@ -23,6 +23,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: #ffffff;
+  border-bottom: solid #ECECEC;;
 }
 
 .header-navigation {
@@ -40,7 +41,7 @@ body {
   color: #212121;
 }
 
-.nav-studio:hover {
+.nav-studio:hover, .nav-studio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,7 +57,7 @@ body {
   color: #212121;
 }
 
-.nav-portfolio:hover {
+.nav-portfolio:hover, .nav-portfolio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,7 +73,7 @@ body {
   color: #212121;
 }
 
-.nav-contacts:hover {
+.nav-contacts:hover, .nav-contacts:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -88,7 +89,7 @@ body {
   color: #757575;
 }
 
-.nav-tel:hover {
+.nav-tel:hover, .nav-tel:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -104,7 +105,7 @@ body {
   color: #757575;
 }
 
-.nav-mail:hover {
+.nav-mail:hover, .nav-mail:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -193,6 +194,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
   color: aliceblue;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-btn:focus {
@@ -201,6 +203,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
   color: aliceblue;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .webstudio-wh {
@@ -218,6 +221,7 @@ body {
   box-sizing: border-box;
   background: #ffffff;
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #EEE;
 }
 
 .product-item:hover {
@@ -272,6 +276,7 @@ body {
 .adress {
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
