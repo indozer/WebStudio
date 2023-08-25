@@ -198,7 +198,6 @@ body {
   display: flex;
   padding-top: 95px;
   padding-bottom: 94px;
-  padding-right: 30px;
   gap: 30px;
 }
 
@@ -217,16 +216,19 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  padding-bottom: 10px;
-  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 /* секція компанії */
 
+.company-section {
+  padding-bottom: 94px;
+}
+
 .company-list {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .team {
@@ -249,10 +251,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
-
-.company-item {
-  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -334,7 +333,11 @@ body {
 }
 
 .footer-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
+}
+
+.footer-item:last-child {
+  margin-bottom: 0px;
 }
 
 .hstudio {

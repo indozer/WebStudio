@@ -164,8 +164,8 @@ body {
 
 .hero-section {
   display: flex;
-  margin-top: 93px;
-  margin-bottom: 34px;
+  padding-top: 93px;
+  padding-bottom: 34px;
 }
 
 .button-list {
@@ -232,11 +232,14 @@ body {
     cursor: pointer;
 }
 
+
+.products {
+  padding-bottom: 94px;
+}
 /* футер */
 
 .footer {
   background: #2f303a;
-  margin-top: 94px;
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -290,6 +293,7 @@ body {
   color: #212121;
   padding-left: 24px;
   padding-top: 20px;
+  margin-bottom: 4px;
 }
 
 .descr {
