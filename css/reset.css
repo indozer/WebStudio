@@ -35,3 +35,8 @@ img {
   display: block;
   width: 100%;
 }
+
+svg {
+  margin: 0;
+  padding: 0;
+}

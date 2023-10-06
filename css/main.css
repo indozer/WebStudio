@@ -31,12 +31,13 @@ body {
 .nav-studio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14; 
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
-.nav-studio:hover, .nav-studio:focus {
+.nav-studio:hover,
+.nav-studio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,7 +53,8 @@ body {
   color: #212121;
 }
 
-.nav-portfolio:hover, .nav-portfolio:focus {
+.nav-portfolio:hover,
+.nav-portfolio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,7 +70,8 @@ body {
   color: #212121;
 }
 
-.nav-contacts:hover, .nav-contacts:focus {
+.nav-contacts:hover,
+.nav-contacts:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -84,7 +87,8 @@ body {
   color: #757575;
 }
 
-.nav-tel:hover, .nav-tel:focus {
+.nav-tel:hover,
+.nav-tel:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +104,8 @@ body {
   color: #757575;
 }
 
-.nav-mail:hover, .nav-mail:focus {
+.nav-mail:hover,
+.nav-mail:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -126,6 +131,7 @@ body {
 .header-list2 {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -148,7 +154,6 @@ body {
 
 /* Секція герой! */
 
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -160,17 +165,17 @@ body {
 }
 
 .hero-section {
-  background: #2F303A;
+  background: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
   background-image: url(../img/hero-bg.webp);
-  background: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero-bg.webp);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/hero-bg.webp);
   padding-bottom: 200px;
   padding-top: 200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .hero-btn {
   display: block;
@@ -192,7 +197,6 @@ body {
   margin-left: auto;
   border: none;
 }
-
 
 .advantage-list {
   display: flex;
@@ -220,6 +224,11 @@ body {
   margin-top: 30px;
 }
 
+.advantage-item {
+  position: relative;
+  padding-top: 70px;
+}
+
 /* секція компанії */
 
 .company-section {
@@ -232,13 +241,13 @@ body {
 }
 
 .team {
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding-bottom: 93px;
   padding-top: 94px;
 }
 
 .team-item {
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -279,7 +288,6 @@ body {
   color: #212121;
 }
 
-
 .team-descr {
   font-weight: 400;
   font-size: 16px;
@@ -288,7 +296,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 .webstudio-wh {
@@ -361,28 +368,105 @@ body {
   margin-bottom: 30px;
 }
 
-.advantage-icon::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
+.smartphone-svg {
+  position: absolute;
+  top: 4px;
+  right: 130px;
 }
 
-.advantage-icon:first-child::before {
-  background-image: url(../img/antenna.webp);
+.mail-svg {
+  position: absolute;
+  top: 3.5px;
+  right: 320px;
 }
 
-.advantage-icon:nth-child(2)::before {
-  background-image: url(../img/clock.webp);
+.hnum:hover {
+  fill: #2196f3;
 }
 
-.advantage-icon:nth-child(3)::before {
-  background-image: url(../img/diagram.webp);
+.hmail:hover {
+  fill: #2196f3;
 }
 
-.advantage-icon:nth-child(4)::before {
-  background-image: url(../img/astronaut.webp);
+.advantage-item svg {
+  position: absolute;
+  bottom: 140px;
+  left: 100px;
+}
+
+.doing-list {
+  display: flex;
+  margin-bottom: 94px;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.doing-item {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  position: relative;
+  width: 170px;
+  height: 92px;
+}
+
+.doing-svg {
+  position: absolute;
+  top: 17px;
+  right: 30px;
+  fill: #a5a5a5;
+}
+
+.small-svg {
+  width: 95px;
+  height: 60px;
+  top: 14px;
+}
+
+.doing-text {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.svg-items {
+  margin-bottom: 42px;
+  margin-top: 28px;
+  background-color: #FFF;
+  border-radius: 40px;
+  padding: 13px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.svg-items:hover {
+  background-color: #2196F3;
+}
+
+.svg-items svg {
+  fill: rgb(161, 161, 161);
+}
+
+.svg-items:hover svg {
+  fill: white;
+}
+
+.svg-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.doing-item:hover {
+  border: 1px solid #2196F3;
+  cursor: pointer;
+}
+
+.doing-item:hover svg {
+  fill: #2196F3;
 }
