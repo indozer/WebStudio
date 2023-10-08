@@ -140,6 +140,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  justify-content: center;
 }
 
 .logo {
@@ -504,7 +505,7 @@ body {
 
 .social-container {
   position: relative;
-  margin-left: 256px;
+  margin-left: 300px;
 }
 
 .social-svg {
@@ -513,7 +514,7 @@ body {
 
 .social-text {
   position: absolute;
-  top: -132px;
+  top: -130px;
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -529,7 +530,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  top: -102px;
+  top: -92px;
 }
 
 .social-link {

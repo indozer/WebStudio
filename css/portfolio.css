@@ -197,6 +197,8 @@ body {
   cursor: pointer;
   height: 38px;
   width: auto;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .hero-btn:hover {
@@ -226,6 +228,24 @@ body {
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+.product-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #EEE;
+}
+
+.product-link:focus {
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .product-item {
