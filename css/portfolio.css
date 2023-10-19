@@ -29,6 +29,7 @@ body {
 .header-navigation {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* РЅР°РІС–РіР°С†С–СЏ */
@@ -89,7 +90,8 @@ body {
   color: #757575;
 }
 
-.nav-tel:hover, .nav-tel:focus {
+.nav-tel:hover,
+.nav-tel:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,6 +102,11 @@ body {
 .nav-tel:focus svg {
   fill: #2196f3;
 }
+
+.nav-mail:hover {
+  fill: #2196f3;
+}
+
 
 .nav-mail {
   font-weight: 500;
@@ -119,6 +126,10 @@ body {
 }
 
 .nav-mail:focus svg {
+  fill: #2196f3;
+}
+
+.nav-mail:hover svg {
   fill: #2196f3;
 }
 
