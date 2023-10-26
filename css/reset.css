@@ -40,3 +40,9 @@ svg {
   margin: 0;
   padding: 0;
 }
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
