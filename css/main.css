@@ -24,6 +24,7 @@ body {
 .header-navigation {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 /* навігація */
@@ -159,6 +160,17 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.header-page.hstudio:hover::after {
+  content: '';
+  width: 45px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196f3;
+  display: block;
+  position: absolute;
+  bottom: -25px;
 }
 
 /* Секція герой! */

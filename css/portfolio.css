@@ -30,9 +30,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 /* РЅР°РІС–РіР°С†С–СЏ */
+
+.header-page.hport:hover::after {
+  content: '';
+  width: 73px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196f3;
+  display: block;
+  position: absolute;
+  bottom: -25px;
+}
 
 .nav-studio {
   font-weight: 500;
