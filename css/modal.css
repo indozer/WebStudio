@@ -38,9 +38,7 @@
   height: 15px;
   flex-shrink: 0;
   fill: #212121;
-  margin-top: 20px;
-  margin-right: 4px;
-  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .modal-form {
@@ -115,6 +113,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  vertical-align: baseline;
 }
 
 .modal-label {
@@ -153,4 +152,11 @@
   right: 8px;
   border: 2px solid #c9c9c9;
   border-radius: 50px;
+}
+
+.checkbox-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }

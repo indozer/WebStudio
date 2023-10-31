@@ -469,6 +469,21 @@ body {
   background-color: #2196f3;
 }
 
+@keyframes scale-up-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
 .product-item .product-overlay {
   position: absolute;
   width: 100%;
@@ -481,12 +496,13 @@ body {
   align-items: center;
   text-align: start;
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .product-item:hover .product-overlay {
   opacity: 1;
+  animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 
 .product-item .overlay-text {
   position: absolute;
@@ -514,11 +530,87 @@ body {
   align-items: center;
   text-align: start;
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .product-item:nth-child(2):hover .product-overlay,
 .product-item:nth-child(8):hover .product-overlay,
 .product-item:nth-child(9):hover .product-overlay {
   opacity: 1;
+  animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.newsletter-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 86px;
+}
+
+.newsletter-content {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 86px;
+}
+
+.newsletter-form {
+  margin-bottom: 260px;
+  margin-left: 1207px;
+}
+
+.input-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.newsletter-label {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.newsletter-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  color: #fff;
+}
+
+.newsletter-button {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  margin-left: 12px;
+}
+
+.newsletter-svg {
+  fill: #fff;
+  margin-left: 10px;
 }
