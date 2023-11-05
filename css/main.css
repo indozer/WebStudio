@@ -162,15 +162,21 @@ body {
   color: #000000;
 }
 
-.header-page.hstudio:hover::after {
+.header-page.hstudio::after {
   content: '';
-  width: 45px;
-  height: 4px;
+  width: 0; 
+  height: 0; 
   border-radius: 2px;
   background: #2196f3;
   display: block;
   position: absolute;
   bottom: -25px;
+  transition: width 250ms cubic-bezier(.4,0,.02,1), height 250ms cubic-bezier(.4,0,.02,1); 
+}
+
+.header-page.hstudio:hover::after {
+  width: 45px; 
+  height: 4px; 
 }
 
 /* Секція герой! */
@@ -429,6 +435,8 @@ body {
   position: relative;
   width: 170px;
   height: 92px;
+  transition: cubic-bezier(.4,0,.02,1);
+  transition-duration: 250ms;
 }
 
 .doing-svg {
@@ -487,6 +495,8 @@ body {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
+  transition: cubic-bezier(.4,0,.02,1);
+  transition-duration: 250ms;
 }
 
 .team-link:hover {
@@ -555,6 +565,8 @@ body {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
+  transition: cubic-bezier(.4,0,.02,1);
+  transition-duration: 250ms;
 }
 
 .social-link:hover {
