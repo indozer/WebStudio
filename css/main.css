@@ -163,20 +163,21 @@ body {
 }
 
 .header-page.hstudio::after {
-  content: '';
-  width: 0; 
-  height: 0; 
+  content: "";
+  width: 0;
+  height: 0;
   border-radius: 2px;
   background: #2196f3;
   display: block;
   position: absolute;
   bottom: -25px;
-  transition: width 250ms cubic-bezier(.4,0,.02,1), height 250ms cubic-bezier(.4,0,.02,1); 
+  transition: width 250ms cubic-bezier(0.4, 0, 0.02, 1),
+    height 250ms cubic-bezier(0.4, 0, 0.02, 1);
 }
 
 .header-page.hstudio:hover::after {
-  width: 45px; 
-  height: 4px; 
+  width: 45px;
+  height: 4px;
 }
 
 /* Секція герой! */
@@ -225,10 +226,13 @@ body {
   border: none;
 }
 
-.advantage-list {
-  display: flex;
+.advantage-section {
   padding-top: 95px;
   padding-bottom: 94px;
+}
+
+.advantage-list {
+  display: flex;
   gap: 30px;
 }
 
@@ -247,13 +251,32 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  margin-bottom: 10px;
-  margin-top: 30px;
+  padding-bottom: 10px;
 }
 
-.advantage-item {
-  position: relative;
-  padding-top: 70px;
+.advantage-item::before {
+  display: block;
+  content: '';
+  background-image: url(../img/antenna.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+}
+
+.advantage-item:nth-child(2)::before {
+  background-image: url(../img/clock.png);
+}
+
+.advantage-item:nth-child(3)::before {
+  background-image: url(../img/diagram.png);
+}
+
+.advantage-item:nth-child(4)::before {
+  background-image: url(../img/astronaut.png);
 }
 
 /* секція компанії */
@@ -278,6 +301,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .company-involded {
@@ -323,6 +347,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .webstudio-wh {
@@ -334,7 +359,15 @@ body {
 .footer {
   background: #2f303a;
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-information {
+  margin-right: 70px;
 }
 
 .footer-list {
@@ -415,12 +448,6 @@ body {
   fill: #2196f3;
 }
 
-.advantage-item svg {
-  position: absolute;
-  bottom: 140px;
-  left: 100px;
-}
-
 .doing-list {
   display: flex;
   margin-bottom: 94px;
@@ -435,7 +462,7 @@ body {
   position: relative;
   width: 170px;
   height: 92px;
-  transition: cubic-bezier(.4,0,.02,1);
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
   transition-duration: 250ms;
 }
 
@@ -487,15 +514,13 @@ body {
 .team-link {
   display: block;
   width: 100%;
-  margin-bottom: 30px;
-  margin-top: 28px;
   background-color: #fff;
   border-radius: 40px;
   padding: 13px;
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
-  transition: cubic-bezier(.4,0,.02,1);
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
   transition-duration: 250ms;
 }
 
@@ -526,8 +551,7 @@ body {
 }
 
 .social-container {
-  position: relative;
-  margin-left: 300px;
+  margin-right: 93px;
 }
 
 .social-svg {
@@ -535,8 +559,6 @@ body {
 }
 
 .social-text {
-  position: absolute;
-  top: -130px;
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -545,14 +567,13 @@ body {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .social-list {
-  position: absolute;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  top: -92px;
+  gap: 10px ;
 }
 
 .social-link {
@@ -565,7 +586,7 @@ body {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
-  transition: cubic-bezier(.4,0,.02,1);
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
   transition-duration: 250ms;
 }
 
@@ -610,30 +631,6 @@ body {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-}
-
-.newsletter-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 570px;
-  height: 86px;
-}
-
-.newsletter-content {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 570px;
-  height: 86px;
-}
-
-.newsletter-form {
-  margin-bottom: 260px;
-  margin-left: 1207px;
 }
 
 .input-button-container {
