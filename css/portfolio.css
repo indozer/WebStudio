@@ -165,11 +165,10 @@ body {
 .header-list {
   display: flex;
   align-items: center;
-  margin-right: 344px;
+  margin-right: 328px;
 }
 
 .header-list2 {
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -384,6 +383,13 @@ body {
   white-space: nowrap;
 }
 
+.hnum,
+.hmail {
+  display: flex;
+  align-items: center; 
+  fill: #757575;
+}
+
 /* .all {
   width: 73px;
   height: 38px;
@@ -410,15 +416,16 @@ body {
 } */
 
 .smartphone-svg {
-  position: absolute;
-  top: 2px;
-  right: 130px;
+  margin-right: 10px;
 }
 
 .mail-svg {
-  position: absolute;
-  top: 3px;
-  right: 318px;
+  margin-right: 10px;
+}
+
+.nav-mail, .nav-tel {
+  display: flex;
+  align-items: center;
 }
 
 .social-container {
@@ -502,13 +509,20 @@ body {
   align-items: center;
   text-align: start;
   opacity: 0;
+  transition: opacity 0.4s; /* Добавляем переход для сглаженного изменения opacity */
 }
 
-.product-item:hover .product-overlay {
+/* Анимация при наведении и фокусировке */
+.product-item:hover .product-overlay,
+.product-item:focus .product-overlay {
   opacity: 1;
   animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+/* Удаляем контур фокуса по умолчанию */
+.product-item:focus {
+  outline: none;
+}
 
 .product-item .overlay-text {
   position: absolute;
@@ -540,7 +554,10 @@ body {
 
 .product-item:nth-child(2):hover .product-overlay,
 .product-item:nth-child(8):hover .product-overlay,
-.product-item:nth-child(9):hover .product-overlay {
+.product-item:nth-child(9):hover .product-overlay,
+.product-item:nth-child(2):focus .product-overlay,
+.product-item:nth-child(8):focus .product-overlay,
+.product-item:nth-child(9):focus .product-overlay {
   opacity: 1;
   animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

@@ -109,6 +109,12 @@ body {
   color: #757575;
 }
 
+.nav-mail,
+.nav-tel {
+  display: flex;
+  align-items: center;
+}
+
 .nav-mail:hover,
 .nav-mail:focus {
   font-weight: 500;
@@ -256,7 +262,7 @@ body {
 
 .advantage-item::before {
   display: block;
-  content: '';
+  content: "";
   background-image: url(../img/antenna.png);
   background-size: 70px;
   background-repeat: no-repeat;
@@ -264,7 +270,7 @@ body {
   width: 100%;
   height: 120px;
   border-radius: 4px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .advantage-item:nth-child(2)::before {
@@ -429,15 +435,11 @@ body {
 }
 
 .smartphone-svg {
-  position: absolute;
-  top: 2px;
-  right: 130px;
+  margin-right: 10px;
 }
 
 .mail-svg {
-  position: absolute;
-  top: 4px;
-  right: 318px;
+  margin-right: 10px;
 }
 
 .hnum:hover {
@@ -446,6 +448,13 @@ body {
 
 .hmail:hover {
   fill: #2196f3;
+}
+
+.hnum,
+.hmail {
+  display: flex;
+  align-items: center; 
+  fill: #757575;
 }
 
 .doing-list {
@@ -573,7 +582,7 @@ body {
 .social-list {
   display: flex;
   flex-direction: row;
-  gap: 10px ;
+  gap: 10px;
 }
 
 .social-link {
