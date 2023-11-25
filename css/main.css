@@ -444,10 +444,14 @@ body {
 
 .hnum:hover {
   fill: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .hmail:hover {
   fill: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .hnum,
@@ -645,7 +649,7 @@ body {
 .input-button-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -672,6 +676,9 @@ body {
 }
 
 .newsletter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
   flex-shrink: 0;
@@ -687,6 +694,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.96px;
   margin-left: 12px;
+  padding: 0; 
 }
 
 .newsletter-svg {
