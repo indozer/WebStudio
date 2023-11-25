@@ -36,16 +36,25 @@
   border: 2px solid #2196f3;
 }
 
-.modal-label:hover .modal-persona {
-  fill: #2196f3;
+.modal-input:active {
+  border: 2px solid #2196f3;
 }
 
-.modal-label:hover .modal-phone {
-  fill: #2196f3;
-}
-
+.modal-label:hover .modal-persona,
+.modal-label:hover .modal-phone,
 .modal-label:hover .modal-email {
   fill: #2196f3;
+}
+
+.modal-input:focus + .modal-persona,
+.modal-input:focus + .modal-phone,
+.modal-input:focus + .modal-email {
+  fill: #2196f3;
+}
+
+.modal-input:focus {
+  border-radius: 4px;
+  border: 2px solid #2196f3;
 }
 
 .modal-comment {
@@ -61,6 +70,11 @@
 }
 
 .modal-comment:hover {
+  border-radius: 4px;
+  border: 1px solid #2196f3;
+}
+
+.modal-comment:focus {
   border-radius: 4px;
   border: 1px solid #2196f3;
 }

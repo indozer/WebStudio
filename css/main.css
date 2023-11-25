@@ -35,6 +35,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-studio:hover,
@@ -52,6 +54,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-portfolio:hover,
@@ -69,6 +73,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-contacts:hover,
@@ -86,6 +92,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-tel:hover,
@@ -107,12 +115,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-mail,
 .nav-tel {
   display: flex;
   align-items: center;
+  transition: cubic-bezier(0.4, 0, 0.02, 1);
+  transition-duration: 250ms;
 }
 
 .nav-mail:hover,
@@ -258,6 +270,7 @@ body {
   text-transform: uppercase;
   color: #212121;
   padding-bottom: 10px;
+  
 }
 
 .advantage-item::before {
@@ -266,11 +279,12 @@ body {
   background-image: url(../img/antenna.png);
   background-size: 70px;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   width: 100%;
   height: 120px;
   border-radius: 4px;
   background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .advantage-item:nth-child(2)::before {
@@ -444,14 +458,10 @@ body {
 
 .hnum:hover {
   fill: #2196f3;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
 }
 
 .hmail:hover {
   fill: #2196f3;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
 }
 
 .hnum,
