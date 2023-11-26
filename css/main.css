@@ -1,3 +1,11 @@
+:root {
+  --transition-duration: 250ms;
+  --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
+}
+
+/*   transition: var(--transition-property) var(--transition-duration); */
+
+
 * {
   text-decoration: 0;
   list-style-type: none;
@@ -35,8 +43,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .nav-studio:hover,
@@ -54,8 +61,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .nav-portfolio:hover,
@@ -73,8 +79,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .nav-contacts:hover,
@@ -92,8 +97,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .nav-tel:hover,
@@ -115,16 +119,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .nav-mail,
 .nav-tel {
   display: flex;
   align-items: center;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-duration) var(--transition-property);
 }
 
 .nav-mail:hover,
@@ -485,8 +487,7 @@ body {
   position: relative;
   width: 170px;
   height: 92px;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .doing-svg {
@@ -543,8 +544,7 @@ body {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .team-link:hover {
@@ -609,8 +609,7 @@ body {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
-  transition: cubic-bezier(0.4, 0, 0.02, 1);
-  transition-duration: 250ms;
+  transition: var(--transition-property) var(--transition-duration);
 }
 
 .social-link:hover {
