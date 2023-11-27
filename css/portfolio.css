@@ -1,6 +1,8 @@
 :root {
   --transition-duration: 250ms;
   --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
+  --main-color: #2196f3; /* blue */
+  --second-color: #212121; /* black */
 }
 
 /*   transition: var(--transition-property) var(--transition-duration) */
@@ -65,7 +67,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration)
 }
 
@@ -79,7 +81,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration)
 }
 
@@ -93,7 +95,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration)
 }
 
@@ -262,7 +264,7 @@ body {
 
 .product-link {
   display: block;
-  width: 100%;
+  width: 101%;
   box-sizing: border-box;
   background: #ffffff;
   flex-basis: calc((100% - 60px) / 3);
@@ -358,7 +360,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--second-color);
   padding-left: 24px;
   padding-top: 20px;
   margin-bottom: 4px;
@@ -553,7 +555,7 @@ body {
 .product-item:nth-child(9) .product-overlay {
   position: absolute;
   width: 100%;
-  height: 300px;
+  height: 303px;
   background: rgba(33, 150, 243, 0.9);
   top: 0;
   left: 0;
@@ -562,6 +564,7 @@ body {
   align-items: center;
   text-align: start;
   opacity: 0;
+  
 }
 
 .product-item:nth-child(2):hover .product-overlay,

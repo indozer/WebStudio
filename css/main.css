@@ -1,10 +1,12 @@
 :root {
   --transition-duration: 250ms;
   --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
+  --main-color: #2196f3; /* blue */
+  --second-color: #212121; /* black */
+  
 }
 
 /*   transition: var(--transition-property) var(--transition-duration); */
-
 
 * {
   text-decoration: 0;
@@ -42,13 +44,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-studio:hover,
 .nav-studio:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-portfolio {
@@ -56,13 +58,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-portfolio:hover,
 .nav-portfolio:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-contacts {
@@ -70,13 +72,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
   transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-contacts:hover,
 .nav-contacts:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-tel {
@@ -90,11 +92,11 @@ body {
 
 .nav-tel:hover,
 .nav-tel:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-tel:focus svg {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .nav-mail {
@@ -115,11 +117,11 @@ body {
 
 .nav-mail:hover,
 .nav-mail:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-mail:focus svg {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .header-logo {
@@ -128,7 +130,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .header-list {
@@ -150,7 +152,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .nav-webstudiobl {
@@ -167,7 +169,7 @@ body {
   width: 0;
   height: 0;
   border-radius: 2px;
-  background: #2196f3;
+  background: var(--main-color);
   display: block;
   position: absolute;
   bottom: -25px;
@@ -215,7 +217,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 40px;
@@ -250,7 +252,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--second-color);
   padding-bottom: 10px;
   
 }
@@ -312,7 +314,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
   margin-bottom: 50px;
 }
 
@@ -329,7 +331,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 .team-name {
@@ -338,7 +340,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 .team-descr {
@@ -439,11 +441,11 @@ body {
 }
 
 .hnum:hover {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .hmail:hover {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .hnum,
@@ -458,6 +460,15 @@ body {
   margin-bottom: 94px;
   margin-top: 50px;
   gap: 30px;
+}
+
+.clients-link svg {
+  fill: #afb1b8;
+  transition: var(--transition-property) var(--transition-duration);
+}
+
+.clients-link:hover svg, .clients-link:focus svg {
+  fill: var(--main-color);
 }
 
 .clients-link {
@@ -478,24 +489,24 @@ body {
 }
 
 .clients-link:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--main-color);
   cursor: pointer;
 }
 
 .clients-link:focus {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  fill: var(--main-color);
+  border: 1px solid var(--main-color);
   width: 170px;
   height: 92px;
   border-radius: 4px;
 }
 
 .clients-link:focus svg {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .clients-link:hover svg {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .small-svg {
@@ -505,7 +516,7 @@ body {
 }
 
 .doing-text {
-  color: #212121;
+  color: var(--second-color);
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -527,12 +538,8 @@ body {
   transition: var(--transition-property) var(--transition-duration);
 }
 
-.team-link:hover {
-  background-color: #2196f3;
-}
-
-.team-link:focus {
-  background-color: #2196f3;
+.team-link:hover, .team-link:focus {
+  background-color: var(--main-color);
 }
 
 .team-link svg {
@@ -595,13 +602,13 @@ body {
 .social-link:hover {
   border-radius: 40px;
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--main-color);
 }
 
 .social-link:focus {
   border-radius: 40px;
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--main-color);
 }
 
 .our-clients {
@@ -672,7 +679,7 @@ body {
   height: 50px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;

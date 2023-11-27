@@ -1,6 +1,8 @@
 :root {
   --transition-duration: 250ms;
   --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
+  --main-color: #2196f3; /* blue */
+  --second-color: #212121; /* black */
 }
 
 /*   transition: var(--transition-property) var(--transition-duration) */
@@ -41,29 +43,29 @@
 
 .modal-input:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--main-color);
 }
 
 .modal-input:active {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--main-color);
 }
 
 .modal-label:hover .modal-persona,
 .modal-label:hover .modal-phone,
 .modal-label:hover .modal-email {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .modal-input:focus + .modal-persona,
 .modal-input:focus + .modal-phone,
 .modal-input:focus + .modal-email {
-  fill: #2196f3;
+  fill: var(--main-color);
 }
 
 .modal-input:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--main-color);
 }
 
 .modal-comment {
@@ -80,19 +82,19 @@
 
 .modal-comment:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--main-color);
 }
 
 .modal-comment:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--main-color);
 }
 
 .modal-checkbox {
   width: 16px;
   height: 15px;
   flex-shrink: 0;
-  fill: #212121;
+  fill: var(--second-color);
   margin-right: 10px;
   margin-bottom: 0;
 
@@ -103,7 +105,7 @@
 }
 
 .modal-text {
-  color: #212121;
+  color: var(--second-color);
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
@@ -117,7 +119,7 @@
 
 .modal-send {
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
@@ -152,7 +154,7 @@
 }
 
 .blue-terms {
-  color: #2196f3;
+  color: var(--main-color);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
