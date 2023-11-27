@@ -66,15 +66,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: color var(--transition-property) var(--transition-duration)
 }
 
 .nav-studio:hover,
 .nav-studio:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -84,15 +80,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: color var(--transition-property) var(--transition-duration)
 }
 
 .nav-portfolio:hover,
 .nav-portfolio:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -102,15 +94,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: color var(--transition-property) var(--transition-duration)
 }
 
 .nav-contacts:hover,
 .nav-contacts:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -120,15 +108,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: color var(--transition-property) var(--transition-duration)
 }
 
 .nav-tel:hover,
 .nav-tel:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -151,15 +135,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: color var(--transition-property) var(--transition-duration)
 }
 
 .nav-mail:hover,
 .nav-mail:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -246,7 +226,7 @@ body {
   width: auto;
   padding-left: 22px;
   padding-right: 22px;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: all var(--transition-property) var(--transition-duration)
 }
 
 .hero-btn:hover {
@@ -303,7 +283,7 @@ body {
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
   position: relative;
-  transition: var(--transition-property) var(--transition-duration)
+  transition: border var(--transition-property) var(--transition-duration)
 }
 
 .product-item:hover {

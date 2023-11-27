@@ -43,15 +43,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-studio:hover,
 .nav-studio:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -61,15 +57,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-portfolio:hover,
 .nav-portfolio:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -79,15 +71,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-contacts:hover,
 .nav-contacts:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -97,15 +85,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-tel:hover,
 .nav-tel:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -119,22 +103,18 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: color var(--transition-property) var(--transition-duration);
 }
 
 .nav-mail,
 .nav-tel {
   display: flex;
   align-items: center;
-  transition: var(--transition-duration) var(--transition-property);
+  transition: color var(--transition-duration) var(--transition-property);
 }
 
 .nav-mail:hover,
 .nav-mail:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
