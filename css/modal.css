@@ -8,9 +8,9 @@
 /*   transition: var(--transition-property) var(--transition-duration) */
 
 .modal-window {
-  position: fixed; 
-  top: 50%; 
-  left: 50%; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
   padding: 0px 40px;
   width: 528px;
   height: 630px;
@@ -18,14 +18,19 @@
   background: #ffffff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    transform: translate(-50%, -100%);
-    opacity: 0;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop {
+  opacity: 0;
+  transition: opacity 550ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop:not(.is-hidden) .modal-window {
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   opacity: 1;
 }
 
@@ -38,7 +43,7 @@
   margin-bottom: 10px;
   margin-top: 4px;
   padding-left: 35px;
-  transition: border var(--transition-property) var(--transition-duration)
+  transition: border var(--transition-property) var(--transition-duration);
 }
 
 .modal-input:hover {
@@ -77,7 +82,7 @@
   padding-right: 250px;
   padding-top: 15px;
   padding-left: 15px;
-  transition: border var(--transition-property) var(--transition-duration)
+  transition: border var(--transition-property) var(--transition-duration);
 }
 
 .modal-comment:hover {
@@ -97,7 +102,6 @@
   fill: var(--second-color);
   margin-right: 10px;
   margin-bottom: 0;
-
 }
 
 .modal-form {
@@ -217,7 +221,7 @@
 .checkbox-div {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 30px;
 }
