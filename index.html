@@ -11,16 +11,15 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
     <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -80,7 +79,7 @@
       <section class="advantage-section">
         <div class="container">
           <ul class="advantage-list">
-            <li class="advantage-item advantage-icon">
+            <li class="advantage-item advantage-icon" data-aos="fade-right" data-aos-delay="200">
               <!-- <svg class="antenna-svg" width="70" height="70">
                 <use href="./img/symbol-defs.svg#icon-antenna"></use>
               </svg> -->
@@ -90,7 +89,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="advantage-item advantage-icon">
+            <li data-aos="fade-right" class="advantage-item advantage-icon">
               <!-- <svg class="clock-svg" width="70" height="70">
                 <use href="./img/symbol-defs.svg#icon-clock"></use>
               </svg> -->
@@ -100,7 +99,7 @@
                 тягне у себе.
               </p>
             </li>
-            <li class="advantage-item advantage-icon">
+            <li data-aos="fade-left" class="advantage-item advantage-icon">
               <!-- <svg class="clock-svg" width="70" height="70">
                 <use href="./img/symbol-defs.svg#icon-diagram"></use>
               </svg> -->
@@ -109,7 +108,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advantage-item advantage-icon">
+            <li data-aos="fade-left" data-aos-delay="200" class="advantage-item advantage-icon">
               <!-- <svg class="clock-svg" width="70" height="70">
                 <use href="./img/symbol-defs.svg#icon-astronaut"></use>
               </svg> -->
@@ -123,7 +122,7 @@
         </div>
       </section>
 
-      <section class="company-section">
+      <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="company-section">
         <div class="container">
           <h2 class="company-involded">Чим ми займаємося</h2>
           <ul class="company-list">
@@ -153,7 +152,7 @@
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
-            <li class="team-item">
+            <li data-aos="fade-right" data-aos-delay="200" class="team-item">
               <img class="team-img" src="./img/face1.webp" alt="face1" />
               <h4 class="team-name">Ігор Дем'яненко</h4>
               <h3 class="team-descr">Product Designer</h3>
@@ -208,7 +207,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
+            <li data-aos="fade-right" class="team-item">
               <img class="team-img" src="./img/face2.webp" alt="face2" />
               <h4 class="team-name">Ольга Рєпіна</h4>
               <h3 class="team-descr">Frontend Developer</h3>
@@ -263,7 +262,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
+            <li data-aos="fade-left" class="team-item">
               <img class="team-img" src="./img/face3.webp" alt="face3" />
               <h4 class="team-name">Микола Тарасов</h4>
               <h3 class="team-descr">Marketing</h3>
@@ -318,7 +317,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
+            <li data-aos="fade-left" data-aos-delay="200" class="team-item">
               <img class="team-img" src="./img/face4.webp" alt="face4" />
               <h4 class="team-name">Михайло Єрмаков</h4>
               <h3 class="team-descr">UI Designer</h3>
@@ -381,7 +380,7 @@
         <div class="container">
           <h2 class="doing-text">Постійні клієнти</h2>
           <ul class="doing-list">
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg"
@@ -393,7 +392,7 @@
                 </svg>
               </a>
             </li>
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg"
@@ -405,7 +404,7 @@
                 </svg>
               </a>
             </li>
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg"
@@ -417,7 +416,7 @@
                 </svg>
               </a>
             </li>
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg small-svg"
@@ -429,7 +428,7 @@
                 </svg>
               </a>
             </li>
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg"
@@ -441,7 +440,7 @@
                 </svg>
               </a>
             </li>
-            <li class="doing-item">
+            <li data-aos="flip-left" data-aos-delay="200" class="doing-item">
               <a href="#" class="clients-link">
                 <svg
                   class="doing-svg"
@@ -457,7 +456,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer data-aos="fade-up" class="footer">
       <div class="container footer-container">
         <div class="footer-information">
           <a class="footer-logo logo" href="/index.html"
@@ -591,7 +590,7 @@
               <span class="blue-terms">Умови договору</span>
             </label>
           </div>
-          <button type="submit" class="modal-send" data-modal-close>
+          <button data-modal-close type="submit" class="modal-send">
             Відправити
           </button>
         </form>
@@ -599,5 +598,9 @@
     </div>
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
