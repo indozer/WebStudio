@@ -1,0 +1,27 @@
+:root {
+    --transition-duration: 250ms;
+    --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
+    --main-color: #2196f3; /* blue */
+    --second-color: #212121; /* black */
+    
+  }
+  
+  /*   transition: var(--transition-property) var(--transition-duration); */
+  
+  * {
+    text-decoration: 0;
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: "Roboto";
+  }
+  
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: solid rgb(223, 11, 82); */
+    margin-left: auto;
+    margin-right: auto;
+  }

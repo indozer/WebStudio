@@ -18,8 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="./dist/css/portfolio.min.css" />
     <title>Портфоліо</title>
   </head>
   <body>
@@ -229,82 +228,87 @@
     </main>
 
     <footer data-aos="fade-up" class="footer">
-      <div class="container">
-        <a class="footer-logo logo" href="/index.html"
-          >Web<span class="webstudio-wh">Studio</span></a
-        >
-        <ul class="footer-list">
-          <li class="footer-item">
-            <address class="footer-adress">
-              м. Київ, пр-т Лесі Українки, 26
-            </address>
-          </li>
-          <li class="footer-item">
-            <a href="mailto:info@devstudio.com" class="footer-contacts"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-item">
-            <a href="tel:+380961111111" class="footer-phone"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-
+      <div class="container footer-container">
+        <div class="footer-information">
+          <a class="footer-logo logo" href="/index.html"
+            >Web<span class="webstudio-wh">Studio</span></a
+          >
+          <ul class="footer-list">
+            <li class="footer-item">
+              <address class="footer-adress">
+                м. Київ, пр-т Лесі Українки, 26
+              </address>
+            </li>
+            <li class="footer-item">
+              <a href="mailto:info@devstudio.com" class="footer-contacts"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="tel:+380961111111" class="footer-phone"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
 
         <div class="social-container">
           <h2 class="social-text">приєднуйтесь</h2>
           <ul class="social-list">
             <li class="social-item">
               <a href="https://instagram.com" class="social-link">
-              <svg class="social-svg" width="20" height="20">
-                <use href="./img/symbol-defs.svg#icon-instagram"></use>
-              </svg>
-            </a>
+                <svg class="social-svg" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a href="https://twitter.com" class="social-link">
-              <svg class="social-svg" width="20" height="20">
-                <use href="./img/symbol-defs.svg#icon-twitter"></use>
-              </svg>
-            </a>
+                <svg class="social-svg" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a href="https://facebook.com" class="social-link">
-              <svg class="social-svg" width="20" height="20">
-                <use href="./img/symbol-defs.svg#icon-facebook"></use>
-              </svg>
-            </a>
+                <svg class="social-svg" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a href="https://linkedin.com" class="social-link">
-              <svg class="social-svg" width="20" height="20">
-                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-              </svg>
-            </a>
+                <svg class="social-svg" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        
 
-        <div class="newsletter-container">
-          <div class="newsletter-content">
-            <form class="newsletter-form">
-              <label class="newsletter-label" for="newsletter-form">Підпишіться на розсилку</label>
-              <div class="input-button-container">
-                <input required="" class="newsletter-input" id="newsletter-form" placeholder="E-mail" type="email">
-                <button type="submit" class="newsletter-button" type="button">Підписатися
-                  <svg class="newsletter-svg" width="24" height="24">
-                  <use href="./img/symbol-defs.svg#icon-icon-send">
-                  </use>
+        <div class="newsletter-content">
+          <form class="newsletter-form">
+            <label class="newsletter-label" for="newsletter-form"
+              >Підпишіться на розсилку</label
+            >
+            <div class="input-button-container">
+              <input
+                required=""
+                class="newsletter-input"
+                id="newsletter-form"
+                placeholder="E-mail"
+                type="email"
+              />
+              <button type="submit" class="newsletter-button" type="button">
+                Підписатися<svg class="newsletter-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
               </button>
-              </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
-      </footer>
+    </footer>
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
