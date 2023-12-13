@@ -28,7 +28,7 @@
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
   position: relative;
-  transition: border var(--transition-property) var(--transition-duration);
+  transition: border $transition-property $transition-duration;
 }
 
 .product-item:hover {
@@ -173,7 +173,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--second-color);
+  color: $second-color;
   padding-left: 24px;
   padding-top: 20px;
   margin-bottom: 4px;

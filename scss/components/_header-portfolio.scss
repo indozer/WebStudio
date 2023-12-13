@@ -37,8 +37,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-studio:hover,
@@ -51,8 +51,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-portfolio:hover,
@@ -65,8 +65,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-contacts:hover,
@@ -80,7 +80,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-tel:hover,
@@ -106,7 +106,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-mail:hover,

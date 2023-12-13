@@ -1,78 +1,4 @@
-* {
-  -webkit-text-decoration: 0;
-          text-decoration: 0;
-  list-style-type: none;
-}
 
-body {
-  font-family: "Roboto";
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  /* outline: solid rgb(223, 11, 82); */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-a {
-  margin: 0;
-  text-decoration: none;
-}
-
-a:focus {
-  outline: none;
-}
-
-button:focus {
-  outline: none;
-  cursor: pointer;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-svg {
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  outline: none;
-  cursor: pointer;
-  border: none;
-}
-
-input {
-  outline: none;
-}
-
-/* blue */
-/* black */
 .modal-window {
   position: fixed;
   top: 50%;
@@ -82,10 +8,12 @@ input {
   height: 630px;
   border-radius: 4px;
   background: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transform: translate(-50%, -100%);
   opacity: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -107,34 +35,34 @@ input {
   margin-bottom: 10px;
   margin-top: 4px;
   padding-left: 35px;
-  transition: border cubic-bezier(0.4, 0, 0.02, 1) 250ms;
+  transition: border $transition-property $transition-duration;
 }
 
 .modal-input:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid $main-color;
 }
 
 .modal-input:active {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid $main-color;
 }
 
 .modal-label:hover .modal-persona,
 .modal-label:hover .modal-phone,
 .modal-label:hover .modal-email {
-  fill: #2196f3;
+  fill: $main-color;
 }
 
 .modal-input:focus + .modal-persona,
 .modal-input:focus + .modal-phone,
 .modal-input:focus + .modal-email {
-  fill: #2196f3;
+  fill: $main-color;
 }
 
 .modal-input:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid $main-color;
 }
 
 .modal-comment {
@@ -146,24 +74,24 @@ input {
   padding-right: 250px;
   padding-top: 15px;
   padding-left: 15px;
-  transition: border cubic-bezier(0.4, 0, 0.02, 1) 250ms;
+  transition: border $transition-property $transition-duration;
 }
 
 .modal-comment:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid $main-color;
 }
 
 .modal-comment:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
+  border: 2px solid $main-color;
 }
 
 .modal-checkbox {
   width: 16px;
   height: 15px;
   flex-shrink: 0;
-  fill: #212121;
+  fill: $second-color;
   margin-right: 10px;
   margin-bottom: 0;
 }
@@ -173,7 +101,7 @@ input {
 }
 
 .modal-text {
-  color: #212121;
+  color: $second-color;
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
@@ -187,7 +115,7 @@ input {
 
 .modal-send {
   border-radius: 4px;
-  background: #2196f3;
+  background: $main-color;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
@@ -222,7 +150,7 @@ input {
 }
 
 .blue-terms {
-  color: #2196f3;
+  color: $main-color;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -288,4 +216,4 @@ input {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 30px;
-}/*# sourceMappingURL=modal.css.map */
+}

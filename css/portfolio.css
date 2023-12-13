@@ -1,12 +1,6 @@
 @charset "UTF-8";
-:root {
-  --transition-duration: 250ms;
-  --transition-property: cubic-bezier(0.4, 0, 0.02, 1);
-  --main-color: #2196f3; /* blue */
-  --second-color: #212121; /* black */
-}
-
-/*   transition: var(--transition-property) var(--transition-duration); */
+/* blue */
+/* black */
 * {
   -webkit-text-decoration: 0;
           text-decoration: 0;
@@ -117,8 +111,8 @@ input {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: #212121;
+  transition: color cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .nav-studio:hover,
@@ -131,8 +125,8 @@ input {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: #212121;
+  transition: color cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .nav-portfolio:hover,
@@ -145,8 +139,8 @@ input {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: #212121;
+  transition: color cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .nav-contacts:hover,
@@ -160,7 +154,7 @@ input {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .nav-tel:hover,
@@ -186,7 +180,7 @@ input {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .nav-mail:hover,
@@ -315,11 +309,11 @@ input {
   width: auto;
   padding-left: 22px;
   padding-right: 22px;
-  transition: all var(--transition-property) var(--transition-duration);
+  transition: all cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .hero-btn:hover {
-  background: #f32121;
+  background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
   color: aliceblue;
@@ -363,7 +357,7 @@ input {
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
   position: relative;
-  transition: border var(--transition-property) var(--transition-duration);
+  transition: border cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .product-item:hover {
@@ -503,7 +497,7 @@ input {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--second-color);
+  color: #212121;
   padding-left: 24px;
   padding-top: 20px;
   margin-bottom: 4px;
@@ -606,19 +600,19 @@ input {
   padding-top: 12px;
   padding-bottom: 10px;
   cursor: pointer;
-  transition: var(--transition-property) var(--transition-duration);
+  transition: cubic-bezier(0.4, 0, 0.02, 1) 250ms;
 }
 
 .social-link:hover {
   border-radius: 40px;
   cursor: pointer;
-  background-color: var(--main-color);
+  background-color: #2196f3;
 }
 
 .social-link:focus {
   border-radius: 40px;
   cursor: pointer;
-  background-color: var(--main-color);
+  background-color: #2196f3;
 }
 
 .our-clients {
@@ -662,7 +656,7 @@ input {
   height: 50px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--main-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;

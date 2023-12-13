@@ -85,19 +85,19 @@
     padding-top: 12px;
     padding-bottom: 10px;
     cursor: pointer;
-    transition: var(--transition-property) var(--transition-duration);
+    transition: $transition-property $transition-duration;
   }
   
   .social-link:hover {
     border-radius: 40px;
     cursor: pointer;
-    background-color: var(--main-color);
+    background-color: $main-color;
   }
   
   .social-link:focus {
     border-radius: 40px;
     cursor: pointer;
-    background-color: var(--main-color);
+    background-color: $main-color;
   }
   
   .our-clients {
@@ -141,7 +141,7 @@
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: var(--main-color);
+    background: $main-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #fff;
     text-align: center;

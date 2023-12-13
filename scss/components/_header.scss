@@ -16,13 +16,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-studio:hover,
 .nav-studio:focus {
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-portfolio {
@@ -30,13 +30,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-portfolio:hover,
 .nav-portfolio:focus {
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-contacts {
@@ -44,13 +44,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  transition: color var(--transition-property) var(--transition-duration);
+  color: $second-color;
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-contacts:hover,
 .nav-contacts:focus {
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-tel {
@@ -59,16 +59,16 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-tel:hover,
 .nav-tel:focus {
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-tel:focus svg {
-  fill: var(--main-color);
+  fill: $main-color;
 }
 
 .nav-mail {
@@ -77,23 +77,23 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  transition: color var(--transition-property) var(--transition-duration);
+  transition: color $transition-property $transition-duration;
 }
 
 .nav-mail,
 .nav-tel {
   display: flex;
   align-items: center;
-  transition: color var(--transition-duration) var(--transition-property);
+  transition: color $transition-duration $transition-property;
 }
 
 .nav-mail:hover,
 .nav-mail:focus {
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-mail:focus svg {
-  fill: var(--main-color);
+  fill: $main-color;
 }
 
 .header-logo {
@@ -102,7 +102,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .header-list {
@@ -124,7 +124,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav-webstudiobl {
@@ -141,7 +141,7 @@
   width: 0;
   height: 0;
   border-radius: 2px;
-  background: var(--main-color);
+  background: $main-color;
   display: block;
   position: absolute;
   bottom: -25px;
@@ -182,11 +182,11 @@
 }
 
 .hnum:hover {
-  fill: var(--main-color);
+  fill: $main-color;
 }
 
 .hmail:hover {
-  fill: var(--main-color);
+  fill: $main-color;
 }
 
 .hnum,
