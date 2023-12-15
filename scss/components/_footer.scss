@@ -1,22 +1,21 @@
 .footer {
-    background: #2f303a;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .footer-container {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__container {
     display: flex;
   }
-  
-  .footer-information {
+
+  &__information {
     margin-right: 70px;
   }
-  
-  .footer-list {
+
+  &__list {
     margin-top: 20px;
   }
-  
-  .footer-adress {
+
+  &__adress {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -24,40 +23,40 @@
     color: #ffffff;
     font-style: normal;
   }
-  
-  .footer-contacts {
+
+  &__contacts {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .footer-phone {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .footer-item {
-    margin-bottom: 9px;
-  }
-  
-  .footer-item:last-child {
-    margin-bottom: 0px;
   }
 
-  .social-container {
-    margin-right: 93px;
+  &__phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
   }
-  
-  .social-svg {
+
+  &__item {
+    margin-bottom: 9px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.social {
+  margin-right: 93px;
+
+  &__svg {
     fill: #fff;
   }
-  
-  .social-text {
+
+  &__text {
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -68,14 +67,14 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  
-  .social-list {
+
+  &__list {
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
-  
-  .social-link {
+
+  &__link {
     display: block;
     width: 100%;
     height: 100%;
@@ -87,31 +86,29 @@
     cursor: pointer;
     transition: $transition-property $transition-duration;
   }
-  
-  .social-link:hover {
+
+  &__link:hover {
     border-radius: 40px;
     cursor: pointer;
     background-color: $main-color;
-  }
-  
-  .social-link:focus {
-    border-radius: 40px;
-    cursor: pointer;
-    background-color: $main-color;
-  }
-  
-  .our-clients {
-    padding-top: 94px;
   }
 
-  .input-button-container {
+  &__link:focus {
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: $main-color;
+  }
+}
+
+.newsletter {
+  &__button__container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
   }
-  
-  .newsletter-label {
+
+  &__label {
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -121,8 +118,8 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
   }
-  
-  .newsletter-input {
+
+  &__input {
     width: 358px;
     height: 50px;
     border-radius: 4px;
@@ -132,8 +129,8 @@
     padding-left: 16px;
     color: #fff;
   }
-  
-  .newsletter-button {
+
+  &__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,63 +149,31 @@
     line-height: 30px;
     letter-spacing: 0.96px;
     margin-left: 12px;
-    padding: 0; 
+    padding: 0;
   }
-  
-  .newsletter-svg {
+
+  &__svg {
     fill: #fff;
     margin-left: 10px;
   }
-  
-  .footer {
-    background: #2f303a;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .footer-container {
-    display: flex;
-  }
-  
-  .footer-information {
-    margin-right: 70px;
-  }
-  
-  .footer-list {
-    margin-top: 20px;
-  }
-  
-  .footer-adress {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    font-style: normal;
-  }
-  
-  .footer-contacts {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .footer-phone {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .footer-item {
-    margin-bottom: 9px;
-  }
-  
-  .footer-item:last-child {
-    margin-bottom: 0px;
-  }
-  
-  
+}
+
+.webstudio__wh {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}

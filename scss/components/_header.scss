@@ -1,196 +1,192 @@
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-}
 
-.header-navigation {
-  display: flex;
-  align-items: center;
-  position: relative;
+  &__navigation {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $second-color;
+    transition: color $transition-property $transition-duration;
+
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+  }
+
+
+
+  &__portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $second-color;
+    transition: color $transition-property $transition-duration;
+
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+  }
+
+  &__contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $second-color;
+    transition: color $transition-property $transition-duration;
+
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+  }
+
+  &__webstudiobl {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+
+  &__page {
+    &.h__studio {
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-radius: 2px;
+        background: $main-color;
+        display: block;
+        position: absolute;
+        bottom: -25px;
+        transition: width 250ms cubic-bezier(0.4, 0, 0.02, 1),
+          height 250ms cubic-bezier(0.4, 0, 0.02, 1);
+      }
+      
+      &:hover::after {
+        width: 45px;
+        height: 4px;
+      }
+    }
+  }
+
+  &__tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color $transition-property $transition-duration;
+
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+
+    &:focus svg {
+      fill: $main-color;
+    }
+  }
+
+  &__mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color $transition-property $transition-duration;
+
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+
+    &:focus svg {
+      fill: $main-color;
+    }
+  }
+
+  &__mail,
+  &__tel {
+    display: flex;
+    align-items: center;
+    transition: color $transition-duration $transition-property;
+  }
+
+  &__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $main-color;
+    margin-right: 76px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-right: 344px;
+  }
+
+  &__list2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
 }
 
 /* навігація */
 
-.nav-studio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $second-color;
-  transition: color $transition-property $transition-duration;
-}
 
-.nav-studio:hover,
-.nav-studio:focus {
-  color: $main-color;
-}
-
-.nav-portfolio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $second-color;
-  transition: color $transition-property $transition-duration;
-}
-
-.nav-portfolio:hover,
-.nav-portfolio:focus {
-  color: $main-color;
-}
-
-.nav-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $second-color;
-  transition: color $transition-property $transition-duration;
-}
-
-.nav-contacts:hover,
-.nav-contacts:focus {
-  color: $main-color;
-}
-
-.nav-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  transition: color $transition-property $transition-duration;
-}
-
-.nav-tel:hover,
-.nav-tel:focus {
-  color: $main-color;
-}
-
-.nav-tel:focus svg {
-  fill: $main-color;
-}
-
-.nav-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  transition: color $transition-property $transition-duration;
-}
-
-.nav-mail,
-.nav-tel {
-  display: flex;
-  align-items: center;
-  transition: color $transition-duration $transition-property;
-}
-
-.nav-mail:hover,
-.nav-mail:focus {
-  color: $main-color;
-}
-
-.nav-mail:focus svg {
-  fill: $main-color;
-}
-
-.header-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $main-color;
-}
-
-.header-list {
-  display: flex;
-  align-items: center;
-  margin-right: 344px;
-}
-
-.header-list2 {
-  display: flex;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $main-color;
-}
-
-.nav-webstudiobl {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-
-.header-page.hstudio::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-radius: 2px;
-  background: $main-color;
-  display: block;
-  position: absolute;
-  bottom: -25px;
-  transition: width 250ms cubic-bezier(0.4, 0, 0.02, 1),
-    height 250ms cubic-bezier(0.4, 0, 0.02, 1);
-}
-
-.header-page.hstudio:hover::after {
-  width: 45px;
-  height: 4px;
-}
-
-.webstudio-wh {
-  color: #ffffff;
-}
 
 .hstudio {
   margin-left: 93px;
 }
 
-.hport,
-.hport,
-.hcont {
+.h__port,
+.h__port,
+.h__cont {
   margin-left: 50px;
 }
 
-.hnum {
+.h__num {
   margin-left: 50px;
   white-space: nowrap;
 }
 
-.smartphone-svg {
+.smartphone__svg {
   margin-right: 10px;
 }
 
-.mail-svg {
+.mail__svg {
   margin-right: 10px;
 }
 
-.hnum:hover {
+.h__num:hover {
   fill: $main-color;
 }
 
-.hmail:hover {
+.h__mail:hover {
   fill: $main-color;
 }
 
-.hnum,
-.hmail {
+.h__num,
+.h__mail {
   display: flex;
   align-items: center;
   fill: #757575;
