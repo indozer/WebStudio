@@ -139,7 +139,6 @@ input {
   width: 45px;
   height: 4px;
 }
-<<<<<<< HEAD
 .header__tel {
   font-weight: 500;
   font-size: 14px;
@@ -192,19 +191,6 @@ input {
   align-items: center;
   position: relative;
   justify-content: center;
-=======
-
-/* Секція герой! */
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
->>>>>>> parent of e665bba (add mooooore animations)
 }
 
 /* навігація */
